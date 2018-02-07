@@ -1,0 +1,155 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-02-07T07:16:31.400Z",
+    "end": "2018-02-07T07:16:31.426Z",
+    "duration": 26,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "a1e34c64-ee66-44a5-8f78-e1c2e4f0bfbd",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "ee388048-6081-4e97-8bcd-c078c4dd6b0d",
+        "title": "add test",
+        "fullFile": "/Users/cash/Projects/jstest/.tmp/mocha-webpack/1517987789739/bundle.js",
+        "file": "/.tmp/mocha-webpack/1517987789739/bundle.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "add",
+            "fullTitle": "add test add",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect((0, _add2.default)(1, 1)).to.be.equal(2);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "c604ab75-1baf-4447-9f95-df28711bb808",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "c604ab75-1baf-4447-9f95-df28711bb808"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 1,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      },
+      {
+        "uuid": "7602f729-a03b-4bea-bc05-9442c8c56238",
+        "title": "add test",
+        "fullFile": "/Users/cash/Projects/jstest/.tmp/mocha-webpack/1517987789739/bundle.js",
+        "file": "/.tmp/mocha-webpack/1517987789739/bundle.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "add",
+            "fullTitle": "add test add",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(add(1, 1)).to.be.equal(2);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "4f9820da-5b0d-410f-9518-8edea5dc5dbc",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "4f9820da-5b0d-410f-9518-8edea5dc5dbc"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      },
+      {
+        "uuid": "bc69ac45-0841-4e87-ab25-dac192d11ddd",
+        "title": "Foo.vue",
+        "fullFile": "/Users/cash/Projects/jstest/.tmp/mocha-webpack/1517987789739/bundle.js",
+        "file": "/.tmp/mocha-webpack/1517987789739/bundle.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "has a root element with class foo",
+            "fullTitle": "Foo.vue has a root element with class foo",
+            "timedOut": false,
+            "duration": 20,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var wrapper = (0, _vueTestUtils.shallow)(_foo2.default);\n(0, _chai.expect)(wrapper.is('.foo')).to.equal(true);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "8abe9702-2628-4222-89e2-2f58e70d6f1c",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "8abe9702-2628-4222-89e2-2f58e70d6f1c"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 20,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
