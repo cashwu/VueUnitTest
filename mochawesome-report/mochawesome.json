@@ -1,14 +1,14 @@
 {
   "stats": {
     "suites": 3,
-    "tests": 3,
-    "passes": 3,
+    "tests": 6,
+    "passes": 6,
     "pending": 0,
     "failures": 0,
-    "start": "2018-02-07T07:16:31.400Z",
-    "end": "2018-02-07T07:16:31.426Z",
-    "duration": 26,
-    "testsRegistered": 3,
+    "start": "2018-03-26T08:56:26.703Z",
+    "end": "2018-03-26T08:56:26.735Z",
+    "duration": 32,
+    "testsRegistered": 6,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "a1e34c64-ee66-44a5-8f78-e1c2e4f0bfbd",
+    "uuid": "dfd4f6a5-7345-45b2-a7eb-caf0a9323fc6",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,10 +28,10 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "ee388048-6081-4e97-8bcd-c078c4dd6b0d",
+        "uuid": "e9208631-f881-48f8-a7a3-d8dd597c33ff",
         "title": "add test",
-        "fullFile": "/Users/cash/Projects/jstest/.tmp/mocha-webpack/1517987789739/bundle.js",
-        "file": "/.tmp/mocha-webpack/1517987789739/bundle.js",
+        "fullFile": "/Users/cash/Projects/VueUnitTest/.tmp/mocha-webpack/1522054585311/bundle.js",
+        "file": "/.tmp/mocha-webpack/1522054585311/bundle.js",
         "beforeHooks": [],
         "afterHooks": [],
         "tests": [
@@ -48,14 +48,14 @@
             "code": "expect((0, _add2.default)(1, 1)).to.be.equal(2);",
             "err": {},
             "isRoot": false,
-            "uuid": "c604ab75-1baf-4447-9f95-df28711bb808",
+            "uuid": "5d17ec09-6d6f-4239-a97f-bced1f77a85f",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "c604ab75-1baf-4447-9f95-df28711bb808"
+          "5d17ec09-6d6f-4239-a97f-bced1f77a85f"
         ],
         "failures": [],
         "pending": [],
@@ -66,10 +66,10 @@
         "_timeout": 2000
       },
       {
-        "uuid": "7602f729-a03b-4bea-bc05-9442c8c56238",
+        "uuid": "0a068e06-cf66-4e59-ae88-9d6b6fc01ff7",
         "title": "add test",
-        "fullFile": "/Users/cash/Projects/jstest/.tmp/mocha-webpack/1517987789739/bundle.js",
-        "file": "/.tmp/mocha-webpack/1517987789739/bundle.js",
+        "fullFile": "/Users/cash/Projects/VueUnitTest/.tmp/mocha-webpack/1522054585311/bundle.js",
+        "file": "/.tmp/mocha-webpack/1522054585311/bundle.js",
         "beforeHooks": [],
         "afterHooks": [],
         "tests": [
@@ -86,14 +86,14 @@
             "code": "expect(add(1, 1)).to.be.equal(2);",
             "err": {},
             "isRoot": false,
-            "uuid": "4f9820da-5b0d-410f-9518-8edea5dc5dbc",
+            "uuid": "e5d75925-0e8f-4731-8a4d-5e654cf17042",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "4f9820da-5b0d-410f-9518-8edea5dc5dbc"
+          "e5d75925-0e8f-4731-8a4d-5e654cf17042"
         ],
         "failures": [],
         "pending": [],
@@ -104,10 +104,10 @@
         "_timeout": 2000
       },
       {
-        "uuid": "bc69ac45-0841-4e87-ab25-dac192d11ddd",
+        "uuid": "41124a65-8636-4209-a40f-5a0f4c0c6f40",
         "title": "Foo.vue",
-        "fullFile": "/Users/cash/Projects/jstest/.tmp/mocha-webpack/1517987789739/bundle.js",
-        "file": "/.tmp/mocha-webpack/1517987789739/bundle.js",
+        "fullFile": "/Users/cash/Projects/VueUnitTest/.tmp/mocha-webpack/1522054585311/bundle.js",
+        "file": "/.tmp/mocha-webpack/1522054585311/bundle.js",
         "beforeHooks": [],
         "afterHooks": [],
         "tests": [
@@ -115,7 +115,7 @@
             "title": "has a root element with class foo",
             "fullTitle": "Foo.vue has a root element with class foo",
             "timedOut": false,
-            "duration": 20,
+            "duration": 22,
             "state": "passed",
             "speed": "fast",
             "pass": true,
@@ -124,19 +124,73 @@
             "code": "var wrapper = (0, _vueTestUtils.shallow)(_foo2.default);\n(0, _chai.expect)(wrapper.is('.foo')).to.equal(true);",
             "err": {},
             "isRoot": false,
-            "uuid": "8abe9702-2628-4222-89e2-2f58e70d6f1c",
+            "uuid": "ec201cfa-588b-4bc8-a663-a4bde4a87d7b",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "has msg",
+            "fullTitle": "Foo.vue has msg",
+            "timedOut": false,
+            "duration": 2,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var wrapper = (0, _vueTestUtils.shallow)(_foo2.default);\n(0, _chai.expect)(wrapper.vm.msg).to.equal(\"Welcome to Your Vue.js App\");",
+            "err": {},
+            "isRoot": false,
+            "uuid": "630e22e1-41a2-41eb-8241-adfc7cc228d2",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "has method",
+            "fullTitle": "Foo.vue has method",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var wrapper = (0, _vueTestUtils.shallow)(_foo2.default);\nvar r = wrapper.vm.$options.methods.test();\n(0, _chai.expect)(r).to.equal(2);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "89b10cc5-544e-4657-a24e-3327f9f3a458",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "has computed",
+            "fullTitle": "Foo.vue has computed",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var wrapper = (0, _vueTestUtils.shallow)(_foo2.default);\nvar r = wrapper.vm.$options.computed.msg();\n(0, _chai.expect)(r).to.equal(\"msg123\");",
+            "err": {},
+            "isRoot": false,
+            "uuid": "f0399f9e-1d77-443b-abc8-6bb1c1657339",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "8abe9702-2628-4222-89e2-2f58e70d6f1c"
+          "ec201cfa-588b-4bc8-a663-a4bde4a87d7b",
+          "630e22e1-41a2-41eb-8241-adfc7cc228d2",
+          "89b10cc5-544e-4657-a24e-3327f9f3a458",
+          "f0399f9e-1d77-443b-abc8-6bb1c1657339"
         ],
         "failures": [],
         "pending": [],
         "skipped": [],
-        "duration": 20,
+        "duration": 26,
         "root": false,
         "rootEmpty": false,
         "_timeout": 2000

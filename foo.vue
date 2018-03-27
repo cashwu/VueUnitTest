@@ -15,9 +15,17 @@ export default {
     };
   },
   props: ['passedProp'],
+  computed : {
+    msg : function(){
+        return "msg123";
+    }
+  },
   methods: {
     changeMessage() {
-      this.msg = 'new message'
+      this.msg = 'new message';
+    },
+    test() {
+      return 1 + 1;
     }
   }
 }
